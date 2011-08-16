@@ -1,0 +1,32 @@
+*.py[co]
+*~
+\#*\#
+*.swp
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+bin
+develop-eggs
+.installed.cfg
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox/
+
+.ropeproject/
+
+data/
+env/
+etc/logs/*
+
+src/static/upload/
+
+# Customized things.
+local_settings.py

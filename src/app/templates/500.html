@@ -1,0 +1,13 @@
+{% extends "project/base.html" %}
+
+{% block title %}500 Server Error{% endblock %}
+
+{% block content %}
+    <h2>500 Server Error</h2>
+    <p>
+        Sorry, something's gone wrong on our side.
+        Our support team have been notified.
+        <br />
+        <a href="{% url index %}">Back to home</a>
+    </p>
+{% endblock %}
