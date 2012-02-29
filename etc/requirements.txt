@@ -6,5 +6,4 @@ PIL
 
 #~~~~~~~~~~~~~~~~ for server
 #flup
-#MySQL-python
 #psycopg2

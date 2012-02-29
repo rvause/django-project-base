@@ -66,7 +66,7 @@ ADMIN_MEDIA_PREFIX = '/media/'
 
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = '*0&f1mc5th^@vy7n6q+)91uz))p#r1kyh)k)$t&j4g%p4z03g*'
+SECRET_KEY = 'CHANGEME'
 
 
 MIDDLEWARE_CLASSES = (
@@ -83,8 +83,9 @@ ROOT_URLCONF = 'app.project.urls'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
-    'django.template.loaders.filesystem.load_template_source',
-    'django.template.loaders.app_directories.load_template_source',
+   'django.template.loaders.filesystem.Loader',
+   'django.template.loaders.app_directories.Loader',
+   'django.template.loaders.eggs.Loader',
 )
 
 TEMPLATE_CONTEXT_PROCESSORS =  (
