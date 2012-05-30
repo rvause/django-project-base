@@ -110,7 +110,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     'django.contrib.admindocs',
 
-    'util',
+    'utils',
 
     'project',
 )
@@ -120,4 +120,3 @@ try:
     from local_settings import *
 except ImportError:
     print 'Warning! No local_settings module found!'
-
